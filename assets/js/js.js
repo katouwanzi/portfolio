@@ -58,7 +58,12 @@ var TxtRotate = function(el, toRotate, period) {
 
   //scroll down
   $(document).ready(function () {
-   
+    $("#home").on('click', function (event) {
+      $('html, body').animate({
+        scrollTop: ($('#bg').offset().top)
+      }, 200);
+    });
+
     $("#portfolio").on('click', function (event) {
       $('html, body').animate({
         scrollTop: ($('#work').offset().top)
@@ -75,4 +80,5 @@ var TxtRotate = function(el, toRotate, period) {
       }, 200);
     });
     
-  });s
+  });
+

@@ -16,21 +16,26 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Khula|PT+Sans" rel="stylesheet">
 </head>
 <body>
-  <div class = "container">
-      <div id = "header">
-          <div id = "logo">
-          <img id = "name" src="assets/images/name.png" alt="name">
-          </div>
-          
+  <div id = "header"> 
+    
+    <nav id ="navbar">
+                <div id = "logo">
+                  <img id = "name" src="assets/images/name.png" alt="name">
+                </div>
+                <ul>
+                     <li><a href="#" id = "home">Home</a></li>
+                     <li><a href="#" id = "portfolio">Portfolio</a></li>
+                     <li><a id = "aboutxian" href="#">About</a></li>
+                     <li><a id = "contact" href="#">Contact</a></li>
+               </ul>                
+             </nav>
+  
         </div>
+  <div class = "container">
+     
         <div id = "bg">
-                <nav>
-                   <ul>
-                        <li><a href="#" id = "portfolio">Portfolio</a></li>
-                        <li><a id = "aboutxian" href="#">About</a></li>
-                        <li><a id = "contact" href="#">Contact</a></li>
-                  </ul>                
-                </nav>
+                
+        
             <img class = "bg" src="assets/images/bg.jpg" alt="bg">
         
             <div id = "slogan">
@@ -93,6 +98,25 @@
     <h5>say hello.</h5>
     <p>I’m always looking for opportunities to collaborate or have a great conversation. Drop me a line at <a href = "mailto:katforwork@gmail.com">katforwork@gmail.com</a> to chat about art, movies, music and design. </p>
 </div>
+
+<!--forms-->
+<div id = "form">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                
+                
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+        </div>
 
 <footer>
         Designed and hand by Xian Yang © 2019

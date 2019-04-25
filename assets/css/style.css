@@ -1,0 +1,147 @@
+.container{
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+#name{
+    height:40px;
+}
+
+.bg{
+    max-width: 1000px;
+    opacity:0.95;
+    border-radius: 5px;
+}
+
+#logo{
+    text-align:center;
+    line-height:50px;
+    float:left;
+}
+
+nav{
+    line-height:60px;
+    float: left;
+    text-align: center;
+}
+
+li{
+    font-size:15px;
+    list-style-type:none;
+    line-height:40px;
+    padding-right:20px;
+    display: inline;
+}
+
+a{
+    color:rgb(58, 58, 58);
+}
+
+#bg{
+    position: relative;
+}
+
+#slogan{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+h1{
+    color:white;
+    opacity: 0.9;
+    font-family:'Josefin Sans', sans-serif;
+}
+#intro{
+    max-width: 800px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.cotation{
+    position: absolute;
+    width: 80px;
+    top: -50px;
+    left: -50px;
+    z-index: 1;
+}
+
+h4{
+    font-family: 'Khula', sans-serif;
+    font-size: 1.5em;
+    z-index: 99;
+    color:rgb(58, 58, 58);
+}
+
+/*portfolio*/
+
+.pic{
+    height:500px;
+    border-radius: 10px;  
+}
+
+.data{
+    margin-left:80px;
+}
+
+.part{
+    font-size:1.3em;
+    text-align: center;
+    padding:15px;
+}
+
+/*About me*/
+
+#about{
+    background-color:rgb(236, 236, 236);
+}
+
+#me{
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:50px;
+}
+
+h2{
+    font-family:'Josefin Sans', sans-serif;
+    text-align: center;
+    color:rgb(102, 102, 102);
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-at,
+.fa-mobile-alt{
+    color:rgb(216, 141, 113);
+    padding:20px;
+}
+
+.icon{
+    text-align: center;
+}
+
+.introMe,
+#hi{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(102, 102, 102);
+    padding-bottom: 50px;
+}
+
+h5{
+    font-size:3em;
+    text-align: center;
+    padding:80px;
+}
+
+footer{
+    background-color: rgb(253, 178, 151);
+    text-align: center;
+    padding:15px;
+    color:rgb(102, 102, 102);
+}

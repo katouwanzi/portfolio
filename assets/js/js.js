@@ -66,7 +66,7 @@ var TxtRotate = function(el, toRotate, period) {
 
     $("#portfolio").on('click', function (event) {
       $('html, body').animate({
-        scrollTop: ($('#work').offset().top)
+        scrollTop: ($('#intro').offset().top)
       }, 200);
     });
     $("#aboutxian").on('click', function (event) {
